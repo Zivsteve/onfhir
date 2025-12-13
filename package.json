@@ -1,0 +1,28 @@
+{
+  "name": "onfhir",
+  "author": "Zivsteve <contact@zivsteve.com>",
+  "version": "1.0.1",
+  "license": "MIT",
+  "description": "A TypeScript client for interacting with FHIR servers.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest --config jest.config.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/fhir": "^0.0.41",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.1",
+    "eslint": "^9.39.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.7.4",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2"
+  }
+}
