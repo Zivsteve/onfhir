@@ -18,12 +18,8 @@
     "paths": {
       "~/*": ["./src/*"]
     },
-    "typeRoots": [
-      "./node_modules/@types",
-      "./src/@types",
-      "./packages/*/@types"
-    ]
+    "typeRoots": ["./node_modules/@types"]
   },
-  "include": ["./src", "./package.json", "./packages/*/package.json"],
-  "exclude": ["./node_modules", "./dist", "./packages/*/dist", "__tests__"]
+  "include": ["./src", "./package.json"],
+  "exclude": ["./node_modules", "./dist", "__tests__"]
 }
