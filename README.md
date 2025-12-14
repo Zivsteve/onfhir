@@ -1,4 +1,4 @@
-# OnFHIR
+# 🔥OnFHIR
 
 A lightweight TypeScript library for interacting with FHIR servers using OAuth 2.0 SMART on FHIR authentication flow.
 
