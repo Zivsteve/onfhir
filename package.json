@@ -1,10 +1,12 @@
 {
   "name": "onfhir",
   "author": "Zivsteve <contact@zivsteve.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "A TypeScript client for interacting with FHIR servers.",
-  "main": "dist/index.js",
+  "repository": "github:zivsteve/onfhir",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
   "files": [
     "dist"
   ],
