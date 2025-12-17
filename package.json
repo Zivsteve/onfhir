@@ -1,7 +1,7 @@
 {
   "name": "onfhir",
   "author": "Zivsteve <contact@zivsteve.com>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "A TypeScript client for interacting with FHIR servers.",
   "keywords": [
